@@ -3,6 +3,7 @@ const router = express.Router();
 const resources = require("../data/resources");
 const quizData = require("../data/quizData");
 const fs = require("fs");
+const { getRecommendations } = require("../utils/recommendationEngine");
 
 router.post("/submit", (req, res) => {
   const { studentClass, subject, answers, preference } = req.body;
@@ -20,7 +21,7 @@ router.post("/submit", (req, res) => {
     if (answers[index] === q.answer) {
       score++;
     } else {
-      weakTopics.push(q.topic || "General");
+      weakTopics.push((q.topic || "General").toLowerCase());
     }
   });
 
@@ -28,24 +29,13 @@ router.post("/submit", (req, res) => {
   let level = "weak";
   if (percentage >= 70) level = "strong";
   else if (percentage >= 40) level = "average";
-  let filtered = [];
-  weakTopics.forEach((topic) => {
-    const topicResources = resources.filter(
-      (r) =>
-        r.subject === subject &&
-        r.topic === topic &&
-        r.type === preference
-    );
-    filtered.push(...topicResources);
-  });
-  if (filtered.length === 0) {
-    filtered = resources.filter(
-      (r) =>
-        r.subject === subject &&
-        r.level === level &&
-        r.type === preference
-    );
-  }
+  const filtered = getRecommendations({
+  resources,
+  subject,
+  weakTopics,
+  level,
+  preference,
+});
   const session = {
     studentClass,
     subject,

@@ -1,32 +1,30 @@
 const resources = [
   {
-    subject: "Math",
+    subject: "Mathematics",
+    topic: "Algebra",
     level: "weak",
     type: "video",
-    title: "Class 9 Maths Basics",
-    link: "https://www.youtube.com/watch?v=example1",
-    duration: "10 hours",
+    title: "Algebra Basics for Class 9",
+    link: "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+    duration: "15 min"
   },
   {
-    subject: "Math",
-    level: "weak",
-    type: "article",
-    title: "NCERT Maths Guide",
-    link: "https://example.com/math-guide",
-  },
-  {
-    subject: "Physics",
+    subject: "Mathematics",
+    topic: "Algebra",
     level: "average",
     type: "video",
-    title: "Physics Concepts Explained",
-    link: "https://www.youtube.com/watch?v=example2",
+    title: "Polynomials Explained",
+    link: "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+    duration: "20 min"
   },
   {
-    subject: "Python",
-    level: "fast",
+    subject: "Mathematics",
+    topic: "Geometry",
+    level: "weak",
     type: "video",
-    title: "Python Fast Track",
-    link: "https://www.youtube.com/watch?v=example3",
+    title: "Basic Geometry Concepts",
+    link: "https://www.youtube.com/watch?v=302eJ3TzJQU",
+    duration: "18 min"
   }
 ];
 
