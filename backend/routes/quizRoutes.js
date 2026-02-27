@@ -4,11 +4,32 @@ const resources = require("../data/resources");
 const quizData = require("../data/quizData");
 const fs = require("fs");
 const { getRecommendations } = require("../utils/recommendationEngine");
+router.get("/", (req, res) => {
+  const { studentClass, subject } = req.query;
+
+  const quiz = quizData.find(
+    (q) =>
+      q.class === studentClass &&
+      q.subject.toLowerCase() === subject.toLowerCase()
+  );
+
+  if (!quiz) {
+    return res.status(404).json({ message: "Quiz not found" });
+  }
+
+  res.json(quiz.questions);
+});
 
 router.post("/submit", (req, res) => {
   const { studentClass, subject, answers, preference } = req.body;
 
-  const questions = quizData[studentClass]?.[subject];
+  const quiz = quizData.find(
+  (q) =>
+    q.class === studentClass &&
+    q.subject.toLowerCase() === subject.toLowerCase()
+);
+
+const questions = quiz?.questions;
 
   if (!questions) {
     return res.status(404).json({ message: "Quiz not found" });
@@ -66,6 +87,17 @@ router.post("/submit", (req, res) => {
     weakTopics,
     recommendations: filtered,
   });
+});
+router.get("/", (req, res) => {
+  const { studentClass, subject } = req.query;
+
+  const questions = quizData[studentClass]?.[subject];
+
+  if (!questions) {
+    return res.status(404).json({ message: "Quiz not found" });
+  }
+
+  res.json(questions);
 });
 
 module.exports = router;
