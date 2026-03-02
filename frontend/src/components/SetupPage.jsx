@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./SetupPage.css";
 
 function SetupPage({ onStart }) {
   const [studentClass, setStudentClass] = useState("9");
@@ -10,34 +11,53 @@ function SetupPage({ onStart }) {
   };
 
   return (
-    <div>
-      <h2>Setup</h2>
+    <div className="setup-container">
+      <div className="setup-card">
+        <h2 className="title">Setup Your Quiz</h2>
 
-      <label>Class:</label>
-      <select onChange={(e) => setStudentClass(e.target.value)}>
-        <option value="9">9</option>
-        <option value="10">10</option>
-      </select>
+        {/* Class */}
+        <div className="form-group">
+          <label>Class</label>
+          <select
+            value={studentClass}
+            onChange={(e) => setStudentClass(e.target.value)}
+          >
+            <option value="9">Class 9</option>
+            <option value="10">Class 10</option>
+            <option value="11">Class 11</option>
+            <option value="12">Class 12</option>
+          </select>
+        </div>
 
-      <br />
+        {/* Subject */}
+        <div className="form-group">
+          <label>Subject</label>
+          <select
+            value={subject}
+            onChange={(e) => setSubject(e.target.value)}
+          >
+            <option value="Math">Mathematics</option>
+            <option value="Science">Science</option>
+          </select>
+        </div>
 
-      <label>Subject:</label>
-      <select onChange={(e) => setSubject(e.target.value)}>
-        <option value="Math">Math</option>
-        <option value="Science">Science</option>
-      </select>
+        {/* Preference */}
+        <div className="form-group">
+          <label>Learning Preference</label>
+          <select
+            value={preference}
+            onChange={(e) => setPreference(e.target.value)}
+          >
+            <option value="video"> Video</option>
+            <option value="article">Article</option>
+          </select>
+        </div>
 
-      <br />
-
-      <label>Preference:</label>
-      <select onChange={(e) => setPreference(e.target.value)}>
-        <option value="video">Video</option>
-        <option value="article">Article</option>
-      </select>
-
-      <br />
-
-      <button onClick={handleStart}>Start Quiz</button>
+        {/* Button */}
+        <button className="start-btn" onClick={handleStart}>
+          Start Quiz
+        </button>
+      </div>
     </div>
   );
 }

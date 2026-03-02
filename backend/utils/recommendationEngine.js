@@ -8,29 +8,21 @@ function getRecommendations({
   let result = [];
 
   resources.forEach((r) => {
-    if (
-      !r.subject ||
-      !subject ||
-      r.subject.toLowerCase() !== subject.toLowerCase()
-    ) {
+    if (!r.subject || r.subject.toLowerCase() !== subject.toLowerCase()) {
       return;
     }
 
     let score = 0;
     if (r.topic && weakTopics.length > 0) {
       const normalizedTopics = weakTopics.map((t) =>
-        t ? t.toLowerCase() : ""
+        t.toLowerCase()
       );
 
       if (normalizedTopics.includes(r.topic.toLowerCase())) {
         score += 3;
       }
     }
-    if (
-      r.level &&
-      level &&
-      r.level.toLowerCase() === level.toLowerCase()
-    ) {
+    if (r.level && level && r.level.toLowerCase() === level.toLowerCase()) {
       score += 1;
     }
     if (
@@ -40,13 +32,14 @@ function getRecommendations({
     ) {
       score += 2;
     }
-    result.push({ ...r, score }); 
+    if (score > 0) {
+      result.push({ ...r, score });
+    }
   });
   if (result.length === 0) {
     result = resources.filter(
       (r) =>
         r.subject &&
-        subject &&
         r.subject.toLowerCase() === subject.toLowerCase()
     );
   }
