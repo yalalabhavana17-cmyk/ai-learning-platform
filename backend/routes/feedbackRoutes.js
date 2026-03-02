@@ -2,25 +2,45 @@ const express = require("express");
 const router = express.Router();
 const resources = require("../data/resources");
 const fs = require("fs");
+const path = require("path");
 const { getRecommendations } = require("../utils/recommendationEngine");
+const sessionFilePath = path.join(__dirname, "../data/sessions.json");
 
 router.post("/update", (req, res) => {
-  const { subject, currentLevel, feedback, preference } = req.body;
+  const { subject, currentLevel, feedback, speed, preference } = req.body;
 
   let newLevel = currentLevel;
+  if (feedback === "helpful") {
+    if (speed === "slow") {
+      if (currentLevel === "weak") newLevel = "average";
+      else if (currentLevel === "average") newLevel = "strong";
+    }
 
-  // Smart adaptive logic
-  if (feedback === "too easy") {
-    if (currentLevel === "weak") newLevel = "average";
-    else if (currentLevel === "average") newLevel = "strong";
-  } else if (feedback === "too hard") {
-    if (currentLevel === "strong") newLevel = "average";
-    else if (currentLevel === "average") newLevel = "weak";
-  } else if (feedback === "too slow") {
-    newLevel = "fast";
+    if (speed === "fast") {
+      newLevel = currentLevel;
+    }
+
+    if (speed === "perfect") {
+      newLevel = currentLevel;
+    }
   }
+  if (feedback === "not_helpful") {
+    if (speed === "fast") {
+      if (currentLevel === "strong") newLevel = "average";
+      else if (currentLevel === "average") newLevel = "weak";
+    }
 
-  // Use recommendation engine (AI behavior)
+    if (speed === "slow") {
+      newLevel = currentLevel;
+    }
+
+    if (speed === "perfect") {
+      newLevel = "weak";
+    }
+  }
+  if (feedback === "helpful" && speed === "perfect") {
+    if (currentLevel === "weak") newLevel = "average";
+  }
   const updatedResources = getRecommendations({
     resources,
     subject,
@@ -28,13 +48,12 @@ router.post("/update", (req, res) => {
     level: newLevel,
     preference,
   });
-
-  // Save session safely
   const feedbackSession = {
     subject,
     previousLevel: currentLevel,
     newLevel,
     feedback,
+    speed,
     preference,
     results: updatedResources,
     timestamp: new Date(),
@@ -43,15 +62,21 @@ router.post("/update", (req, res) => {
   let sessions = [];
 
   try {
-    sessions = JSON.parse(fs.readFileSync("./data/sessions.json"));
-  } catch {
+    if (fs.existsSync(sessionFilePath)) {
+      sessions = JSON.parse(fs.readFileSync(sessionFilePath));
+    }
+  } catch (err) {
+    console.log("Error reading sessions:", err);
     sessions = [];
   }
 
   sessions.push(feedbackSession);
 
-  fs.writeFileSync("./data/sessions.json", JSON.stringify(sessions, null, 2));
-
+  try {
+    fs.writeFileSync(sessionFilePath, JSON.stringify(sessions, null, 2));
+  } catch (err) {
+    console.log("Error writing sessions:", err);
+  }
   res.json({
     message: "Recommendations updated based on feedback",
     newLevel,

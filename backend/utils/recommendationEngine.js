@@ -1,36 +1,56 @@
-function getRecommendations({ resources, subject, weakTopics, level, preference }) {
+function getRecommendations({
+  resources = [],
+  subject = "",
+  weakTopics = [],
+  level = "",
+  preference = "",
+}) {
   let result = [];
 
   resources.forEach((r) => {
+    if (
+      !r.subject ||
+      !subject ||
+      r.subject.toLowerCase() !== subject.toLowerCase()
+    ) {
+      return;
+    }
+
     let score = 0;
+    if (r.topic && weakTopics.length > 0) {
+      const normalizedTopics = weakTopics.map((t) =>
+        t ? t.toLowerCase() : ""
+      );
 
-    //  Subject match
-    if (r.subject && r.subject.toLowerCase() === subject.toLowerCase()) {
-      score += 2;
+      if (normalizedTopics.includes(r.topic.toLowerCase())) {
+        score += 3;
+      }
     }
-
-    //  Topic match (SAFE + lowercase)
-    if (r.topic && weakTopics.includes(r.topic.toLowerCase())) {
-      score += 3;
-    }
-
-    //  Level match
-    if (r.level && r.level.toLowerCase() === level.toLowerCase()) {
+    if (
+      r.level &&
+      level &&
+      r.level.toLowerCase() === level.toLowerCase()
+    ) {
       score += 1;
     }
-
-    //  Preference match
-    if (r.type && r.type.toLowerCase() === preference.toLowerCase()) {
+    if (
+      preference &&
+      r.type &&
+      r.type.toLowerCase() === preference.toLowerCase()
+    ) {
       score += 2;
     }
-
-    if (score > 0) {
-      result.push({ ...r, score });
-    }
+    result.push({ ...r, score }); 
   });
-
-  // Sort best → worst
-  result.sort((a, b) => b.score - a.score);
+  if (result.length === 0) {
+    result = resources.filter(
+      (r) =>
+        r.subject &&
+        subject &&
+        r.subject.toLowerCase() === subject.toLowerCase()
+    );
+  }
+  result.sort((a, b) => (b.score || 0) - (a.score || 0));
 
   return result;
 }

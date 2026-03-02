@@ -50,6 +50,7 @@ const questions = quiz?.questions;
   let level = "weak";
   if (percentage >= 70) level = "strong";
   else if (percentage >= 40) level = "average";
+  console.log({ subject, weakTopics, level, preference });
   const filtered = getRecommendations({
   resources,
   subject,
@@ -87,17 +88,6 @@ const questions = quiz?.questions;
     weakTopics,
     recommendations: filtered,
   });
-});
-router.get("/", (req, res) => {
-  const { studentClass, subject } = req.query;
-
-  const questions = quizData[studentClass]?.[subject];
-
-  if (!questions) {
-    return res.status(404).json({ message: "Quiz not found" });
-  }
-
-  res.json(questions);
 });
 
 module.exports = router;

@@ -49,5 +49,1442 @@
       }
     ],
     "timestamp": "2026-02-27T15:58:17.399Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 6,
+    "percentage": 60,
+    "level": "average",
+    "weakTopics": [
+      "number system",
+      "algebra",
+      "geometry",
+      "geometry"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 6
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 5
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 5
+      }
+    ],
+    "timestamp": "2026-02-27T16:13:56.888Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 5,
+    "percentage": 50,
+    "level": "average",
+    "weakTopics": [
+      "number system",
+      "algebra",
+      "coordinate geometry",
+      "geometry",
+      "coordinate geometry"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 6
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 5
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 5
+      }
+    ],
+    "timestamp": "2026-03-02T11:14:42.365Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 7,
+    "percentage": 70,
+    "level": "strong",
+    "weakTopics": [
+      "number system",
+      "algebra",
+      "coordinate geometry"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 5
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 5
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T11:28:32.613Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 8,
+    "percentage": 80,
+    "level": "strong",
+    "weakTopics": [
+      "number system",
+      "geometry"
+    ],
+    "recommendations": [
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 3
+      }
+    ],
+    "timestamp": "2026-03-02T11:48:05.196Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "not_helpful",
+    "preference": "video",
+    "results": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T11:48:15.374Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "not_helpful",
+    "preference": "video",
+    "results": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T11:48:34.192Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "preference": "video",
+    "results": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T11:48:37.595Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 7,
+    "percentage": 70,
+    "level": "strong",
+    "weakTopics": [
+      "number system",
+      "geometry",
+      "coordinate geometry"
+    ],
+    "recommendations": [
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 3
+      }
+    ],
+    "timestamp": "2026-03-02T11:49:19.242Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "preference": "video",
+    "results": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T11:49:26.308Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 9,
+    "percentage": 90,
+    "level": "strong",
+    "weakTopics": [
+      "geometry"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 5
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T11:53:41.706Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "not_helpful",
+    "preference": "video",
+    "results": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 2
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T11:53:55.177Z"
+  },
+  {
+    "studentClass": "10",
+    "subject": "Science",
+    "score": 5,
+    "percentage": 50,
+    "level": "average",
+    "weakTopics": [
+      "biology",
+      "biology",
+      "physics",
+      "chemistry",
+      "biology"
+    ],
+    "preference": "article",
+    "recommendations": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 1
+      }
+    ],
+    "timestamp": "2026-03-02T12:04:05.037Z"
+  },
+  {
+    "previousLevel": "average",
+    "newLevel": "weak",
+    "feedback": "not_helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics for Class 9",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "duration": "15 min",
+        "score": 3
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "duration": "18 min",
+        "score": 3
+      },
+      {
+        "subject": "Mathematics",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "video",
+        "title": "Polynomials Explained",
+        "link": "https://www.youtube.com/watch?v=VnZy8z3Z7bA",
+        "duration": "20 min",
+        "score": 2
+      }
+    ],
+    "timestamp": "2026-03-02T12:04:24.880Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Science",
+    "score": 7,
+    "percentage": 70,
+    "level": "strong",
+    "weakTopics": [
+      "chemistry",
+      "physics",
+      "chemistry"
+    ],
+    "preference": "article",
+    "recommendations": [],
+    "timestamp": "2026-03-02T12:10:17.958Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:10:30.440Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Science",
+    "score": 9,
+    "percentage": 90,
+    "level": "strong",
+    "weakTopics": [
+      "chemistry"
+    ],
+    "preference": "article",
+    "recommendations": [],
+    "timestamp": "2026-03-02T12:14:00.600Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "weak",
+    "feedback": "not_helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:14:21.836Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Science",
+    "score": 8,
+    "percentage": 80,
+    "level": "strong",
+    "weakTopics": [
+      "physics",
+      "biology"
+    ],
+    "preference": "article",
+    "recommendations": [],
+    "timestamp": "2026-03-02T12:25:32.919Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "weak",
+    "feedback": "not_helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:25:39.223Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Science",
+    "score": 6,
+    "percentage": 60,
+    "level": "average",
+    "weakTopics": [
+      "chemistry",
+      "chemistry",
+      "physics",
+      "biology"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Science",
+        "topic": "Physics",
+        "level": "average",
+        "type": "video",
+        "title": "Electricity Basics",
+        "link": "https://www.youtube.com/watch?v=mc979OhitAg",
+        "score": 6
+      },
+      {
+        "subject": "Science",
+        "topic": "Biology",
+        "level": "average",
+        "type": "video",
+        "title": "Human Heart",
+        "link": "https://www.youtube.com/watch?v=OQ2N4n-5lLw",
+        "score": 6
+      },
+      {
+        "subject": "Science",
+        "topic": "Physics",
+        "level": "weak",
+        "type": "video",
+        "title": "Motion Basics",
+        "link": "https://www.youtube.com/watch?v=ZK5f1QJkX9Y",
+        "score": 5
+      },
+      {
+        "subject": "Science",
+        "topic": "Chemistry",
+        "level": "weak",
+        "type": "video",
+        "title": "Atoms and Molecules",
+        "link": "https://www.youtube.com/watch?v=GQ0p2dJ3C8k",
+        "score": 5
+      },
+      {
+        "subject": "Science",
+        "topic": "Biology",
+        "level": "weak",
+        "type": "video",
+        "title": "Cell Structure",
+        "link": "https://www.youtube.com/watch?v=URUJD5NEXC8",
+        "score": 5
+      },
+      {
+        "subject": "Science",
+        "topic": "Physics",
+        "level": "average",
+        "type": "article",
+        "title": "Laws of Motion Notes",
+        "link": "https://byjus.com/physics/laws-of-motion/",
+        "score": 4
+      },
+      {
+        "subject": "Science",
+        "topic": "Chemistry",
+        "level": "average",
+        "type": "article",
+        "title": "Acids and Bases",
+        "link": "https://byjus.com/chemistry/acids-bases-salts/",
+        "score": 4
+      },
+      {
+        "subject": "Science",
+        "topic": "Biology",
+        "level": "average",
+        "type": "article",
+        "title": "Photosynthesis Process",
+        "link": "https://byjus.com/biology/photosynthesis/",
+        "score": 4
+      },
+      {
+        "subject": "Science",
+        "topic": "Chemistry",
+        "level": "weak",
+        "type": "article",
+        "title": "Chemical Reactions",
+        "link": "https://byjus.com/chemistry/chemical-reactions/",
+        "score": 3
+      }
+    ],
+    "timestamp": "2026-03-02T12:36:24.530Z"
+  },
+  {
+    "previousLevel": "average",
+    "newLevel": "average",
+    "feedback": "helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:36:39.899Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 8,
+    "percentage": 80,
+    "level": "strong",
+    "weakTopics": [
+      "geometry",
+      "coordinate geometry"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Math",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "score": 5
+      },
+      {
+        "subject": "Math",
+        "topic": "Coordinate Geometry",
+        "level": "average",
+        "type": "video",
+        "title": "Coordinate Geometry Basics",
+        "link": "https://www.youtube.com/watch?v=1W6uH4b8Jf8",
+        "score": 5
+      },
+      {
+        "subject": "Math",
+        "topic": "Number System",
+        "level": "weak",
+        "type": "video",
+        "title": "Number System Basics",
+        "link": "https://www.youtube.com/watch?v=0r6jQx3m3bE",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Quadratics",
+        "level": "weak",
+        "type": "video",
+        "title": "Quadratic Equations Basics",
+        "link": "https://www.youtube.com/watch?v=IlNAJl36-10",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Arithmetic Progression",
+        "level": "average",
+        "type": "video",
+        "title": "AP Explained",
+        "link": "https://www.youtube.com/watch?v=F8sJp0y6WvM",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Statistics",
+        "level": "weak",
+        "type": "video",
+        "title": "Statistics Basics",
+        "link": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Calculus",
+        "level": "weak",
+        "type": "video",
+        "title": "Limits & Derivatives",
+        "link": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Matrices",
+        "level": "weak",
+        "type": "video",
+        "title": "Matrices Basics",
+        "link": "https://www.youtube.com/watch?v=J3nS8W0mZKo",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Calculus",
+        "level": "average",
+        "type": "video",
+        "title": "Integration Basics",
+        "link": "https://www.youtube.com/watch?v=rfG8ce4nNh0",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Vectors",
+        "level": "weak",
+        "type": "video",
+        "title": "Vector Algebra",
+        "link": "https://www.youtube.com/watch?v=8mAITcNt710",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Number System",
+        "level": "weak",
+        "type": "article",
+        "title": "Understanding Number Systems",
+        "link": "https://byjus.com/maths/number-system/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "article",
+        "title": "Polynomials Explained",
+        "link": "https://byjus.com/maths/polynomials/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Mensuration",
+        "level": "weak",
+        "type": "article",
+        "title": "Mensuration Formulas",
+        "link": "https://byjus.com/maths/mensuration/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "level": "weak",
+        "type": "article",
+        "title": "Trigonometry Formulas",
+        "link": "https://byjus.com/maths/trigonometry/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Probability",
+        "level": "weak",
+        "type": "article",
+        "title": "Probability Basics",
+        "link": "https://byjus.com/maths/probability/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "level": "average",
+        "type": "article",
+        "title": "Advanced Trigonometry",
+        "link": "https://byjus.com/maths/trigonometric-functions/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Vectors",
+        "level": "average",
+        "type": "article",
+        "title": "Vectors Introduction",
+        "link": "https://byjus.com/maths/vectors/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Probability",
+        "level": "average",
+        "type": "article",
+        "title": "Advanced Probability",
+        "link": "https://byjus.com/maths/probability/",
+        "score": 0
+      }
+    ],
+    "timestamp": "2026-03-02T12:49:28.337Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "weak",
+    "feedback": "not_helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:49:51.090Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "speed": "slow",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:49:58.560Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "not_helpful",
+    "speed": "slow",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:50:02.097Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T12:50:04.787Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 8,
+    "percentage": 80,
+    "level": "strong",
+    "weakTopics": [
+      "number system",
+      "coordinate geometry"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Math",
+        "topic": "Number System",
+        "level": "weak",
+        "type": "video",
+        "title": "Number System Basics",
+        "link": "https://www.youtube.com/watch?v=0r6jQx3m3bE",
+        "score": 5
+      },
+      {
+        "subject": "Math",
+        "topic": "Coordinate Geometry",
+        "level": "average",
+        "type": "video",
+        "title": "Coordinate Geometry Basics",
+        "link": "https://www.youtube.com/watch?v=1W6uH4b8Jf8",
+        "score": 5
+      },
+      {
+        "subject": "Math",
+        "topic": "Number System",
+        "level": "weak",
+        "type": "article",
+        "title": "Understanding Number Systems",
+        "link": "https://byjus.com/maths/number-system/",
+        "score": 3
+      },
+      {
+        "subject": "Math",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Quadratics",
+        "level": "weak",
+        "type": "video",
+        "title": "Quadratic Equations Basics",
+        "link": "https://www.youtube.com/watch?v=IlNAJl36-10",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Arithmetic Progression",
+        "level": "average",
+        "type": "video",
+        "title": "AP Explained",
+        "link": "https://www.youtube.com/watch?v=F8sJp0y6WvM",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Statistics",
+        "level": "weak",
+        "type": "video",
+        "title": "Statistics Basics",
+        "link": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Calculus",
+        "level": "weak",
+        "type": "video",
+        "title": "Limits & Derivatives",
+        "link": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Matrices",
+        "level": "weak",
+        "type": "video",
+        "title": "Matrices Basics",
+        "link": "https://www.youtube.com/watch?v=J3nS8W0mZKo",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Calculus",
+        "level": "average",
+        "type": "video",
+        "title": "Integration Basics",
+        "link": "https://www.youtube.com/watch?v=rfG8ce4nNh0",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Vectors",
+        "level": "weak",
+        "type": "video",
+        "title": "Vector Algebra",
+        "link": "https://www.youtube.com/watch?v=8mAITcNt710",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "article",
+        "title": "Polynomials Explained",
+        "link": "https://byjus.com/maths/polynomials/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Mensuration",
+        "level": "weak",
+        "type": "article",
+        "title": "Mensuration Formulas",
+        "link": "https://byjus.com/maths/mensuration/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "level": "weak",
+        "type": "article",
+        "title": "Trigonometry Formulas",
+        "link": "https://byjus.com/maths/trigonometry/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Probability",
+        "level": "weak",
+        "type": "article",
+        "title": "Probability Basics",
+        "link": "https://byjus.com/maths/probability/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "level": "average",
+        "type": "article",
+        "title": "Advanced Trigonometry",
+        "link": "https://byjus.com/maths/trigonometric-functions/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Vectors",
+        "level": "average",
+        "type": "article",
+        "title": "Vectors Introduction",
+        "link": "https://byjus.com/maths/vectors/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Probability",
+        "level": "average",
+        "type": "article",
+        "title": "Advanced Probability",
+        "link": "https://byjus.com/maths/probability/",
+        "score": 0
+      }
+    ],
+    "timestamp": "2026-03-02T13:25:19.037Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "weak",
+    "feedback": "not_helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:25:39.495Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "speed": "slow",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:25:46.000Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "average",
+    "feedback": "not_helpful",
+    "speed": "fast",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:25:50.051Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "speed": "slow",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:25:52.861Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Math",
+    "score": 8,
+    "percentage": 80,
+    "level": "strong",
+    "weakTopics": [
+      "coordinate geometry",
+      "geometry"
+    ],
+    "preference": "video",
+    "recommendations": [
+      {
+        "subject": "Math",
+        "topic": "Geometry",
+        "level": "weak",
+        "type": "video",
+        "title": "Basic Geometry Concepts",
+        "link": "https://www.youtube.com/watch?v=302eJ3TzJQU",
+        "score": 5
+      },
+      {
+        "subject": "Math",
+        "topic": "Coordinate Geometry",
+        "level": "average",
+        "type": "video",
+        "title": "Coordinate Geometry Basics",
+        "link": "https://www.youtube.com/watch?v=1W6uH4b8Jf8",
+        "score": 5
+      },
+      {
+        "subject": "Math",
+        "topic": "Number System",
+        "level": "weak",
+        "type": "video",
+        "title": "Number System Basics",
+        "link": "https://www.youtube.com/watch?v=0r6jQx3m3bE",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Algebra",
+        "level": "weak",
+        "type": "video",
+        "title": "Algebra Basics",
+        "link": "https://www.youtube.com/watch?v=GrnH9zV9K1Y",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Quadratics",
+        "level": "weak",
+        "type": "video",
+        "title": "Quadratic Equations Basics",
+        "link": "https://www.youtube.com/watch?v=IlNAJl36-10",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Arithmetic Progression",
+        "level": "average",
+        "type": "video",
+        "title": "AP Explained",
+        "link": "https://www.youtube.com/watch?v=F8sJp0y6WvM",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Statistics",
+        "level": "weak",
+        "type": "video",
+        "title": "Statistics Basics",
+        "link": "https://www.youtube.com/watch?v=xxpc-HPKN28",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Calculus",
+        "level": "weak",
+        "type": "video",
+        "title": "Limits & Derivatives",
+        "link": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Matrices",
+        "level": "weak",
+        "type": "video",
+        "title": "Matrices Basics",
+        "link": "https://www.youtube.com/watch?v=J3nS8W0mZKo",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Calculus",
+        "level": "average",
+        "type": "video",
+        "title": "Integration Basics",
+        "link": "https://www.youtube.com/watch?v=rfG8ce4nNh0",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Vectors",
+        "level": "weak",
+        "type": "video",
+        "title": "Vector Algebra",
+        "link": "https://www.youtube.com/watch?v=8mAITcNt710",
+        "score": 2
+      },
+      {
+        "subject": "Math",
+        "topic": "Number System",
+        "level": "weak",
+        "type": "article",
+        "title": "Understanding Number Systems",
+        "link": "https://byjus.com/maths/number-system/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Algebra",
+        "level": "average",
+        "type": "article",
+        "title": "Polynomials Explained",
+        "link": "https://byjus.com/maths/polynomials/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Mensuration",
+        "level": "weak",
+        "type": "article",
+        "title": "Mensuration Formulas",
+        "link": "https://byjus.com/maths/mensuration/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "level": "weak",
+        "type": "article",
+        "title": "Trigonometry Formulas",
+        "link": "https://byjus.com/maths/trigonometry/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Probability",
+        "level": "weak",
+        "type": "article",
+        "title": "Probability Basics",
+        "link": "https://byjus.com/maths/probability/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Trigonometry",
+        "level": "average",
+        "type": "article",
+        "title": "Advanced Trigonometry",
+        "link": "https://byjus.com/maths/trigonometric-functions/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Vectors",
+        "level": "average",
+        "type": "article",
+        "title": "Vectors Introduction",
+        "link": "https://byjus.com/maths/vectors/",
+        "score": 0
+      },
+      {
+        "subject": "Math",
+        "topic": "Probability",
+        "level": "average",
+        "type": "article",
+        "title": "Advanced Probability",
+        "link": "https://byjus.com/maths/probability/",
+        "score": 0
+      }
+    ],
+    "timestamp": "2026-03-02T13:26:31.971Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:26:57.227Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "weak",
+    "feedback": "not_helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:26:59.406Z"
+  },
+  {
+    "previousLevel": "strong",
+    "newLevel": "strong",
+    "feedback": "helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:27:01.872Z"
+  },
+  {
+    "studentClass": "9",
+    "subject": "Science",
+    "score": 6,
+    "percentage": 60,
+    "level": "average",
+    "weakTopics": [
+      "chemistry",
+      "physics",
+      "chemistry",
+      "biology"
+    ],
+    "preference": "article",
+    "recommendations": [
+      {
+        "subject": "Science",
+        "topic": "Physics",
+        "level": "average",
+        "type": "article",
+        "title": "Laws of Motion Notes",
+        "link": "https://byjus.com/physics/laws-of-motion/",
+        "score": 6
+      },
+      {
+        "subject": "Science",
+        "topic": "Chemistry",
+        "level": "average",
+        "type": "article",
+        "title": "Acids and Bases",
+        "link": "https://byjus.com/chemistry/acids-bases-salts/",
+        "score": 6
+      },
+      {
+        "subject": "Science",
+        "topic": "Biology",
+        "level": "average",
+        "type": "article",
+        "title": "Photosynthesis Process",
+        "link": "https://byjus.com/biology/photosynthesis/",
+        "score": 6
+      },
+      {
+        "subject": "Science",
+        "topic": "Chemistry",
+        "level": "weak",
+        "type": "article",
+        "title": "Chemical Reactions",
+        "link": "https://byjus.com/chemistry/chemical-reactions/",
+        "score": 5
+      },
+      {
+        "subject": "Science",
+        "topic": "Physics",
+        "level": "average",
+        "type": "video",
+        "title": "Electricity Basics",
+        "link": "https://www.youtube.com/watch?v=mc979OhitAg",
+        "score": 4
+      },
+      {
+        "subject": "Science",
+        "topic": "Biology",
+        "level": "average",
+        "type": "video",
+        "title": "Human Heart",
+        "link": "https://www.youtube.com/watch?v=OQ2N4n-5lLw",
+        "score": 4
+      },
+      {
+        "subject": "Science",
+        "topic": "Physics",
+        "level": "weak",
+        "type": "video",
+        "title": "Motion Basics",
+        "link": "https://www.youtube.com/watch?v=ZK5f1QJkX9Y",
+        "score": 3
+      },
+      {
+        "subject": "Science",
+        "topic": "Chemistry",
+        "level": "weak",
+        "type": "video",
+        "title": "Atoms and Molecules",
+        "link": "https://www.youtube.com/watch?v=GQ0p2dJ3C8k",
+        "score": 3
+      },
+      {
+        "subject": "Science",
+        "topic": "Biology",
+        "level": "weak",
+        "type": "video",
+        "title": "Cell Structure",
+        "link": "https://www.youtube.com/watch?v=URUJD5NEXC8",
+        "score": 3
+      }
+    ],
+    "timestamp": "2026-03-02T13:31:10.612Z"
+  },
+  {
+    "previousLevel": "average",
+    "newLevel": "average",
+    "feedback": "helpful",
+    "speed": "perfect",
+    "preference": "video",
+    "results": [],
+    "timestamp": "2026-03-02T13:31:23.063Z"
   }
 ]
