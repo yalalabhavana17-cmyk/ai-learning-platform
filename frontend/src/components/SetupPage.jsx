@@ -5,6 +5,7 @@ function SetupPage({ onStart }) {
   const [studentClass, setStudentClass] = useState("9");
   const [subject, setSubject] = useState("Math");
   const [preference, setPreference] = useState("video");
+  const [goal, setGoal] = useState("");
 
   const handleStart = () => {
     onStart({ studentClass, subject, preference });
@@ -52,6 +53,16 @@ function SetupPage({ onStart }) {
             <option value="article">Article</option>
           </select>
         </div>
+        <div className="form-group">
+        <label>
+        Goal:
+        <select value={goal} onChange={(e) => setGoal(e.target.value)}>
+          <option value="">Select Goal</option>
+          <option value="exam preparation">Exam Preparation</option>
+          <option value="strengthen weak topics">Strengthen Weak Topics</option>
+        </select>
+      </label>
+      </div>
 
         {/* Button */}
         <button className="start-btn" onClick={handleStart}>

@@ -7,35 +7,43 @@ function getRecommendations({
 }) {
   let result = [];
 
+  const normalizedTopics = weakTopics.map((t) =>
+    t ? t.toLowerCase() : ""
+  );
+
   resources.forEach((r) => {
+    // 1. Subject must match
     if (!r.subject || r.subject.toLowerCase() !== subject.toLowerCase()) {
       return;
     }
 
-    let score = 0;
-    if (r.topic && weakTopics.length > 0) {
-      const normalizedTopics = weakTopics.map((t) =>
-        t.toLowerCase()
-      );
-
-      if (normalizedTopics.includes(r.topic.toLowerCase())) {
-        score += 3;
-      }
+    // 2. STRICT FILTER: Topic must match weakTopics
+    if (
+      normalizedTopics.length > 0 &&
+      (!r.topic || !normalizedTopics.includes(r.topic.toLowerCase()))
+    ) {
+      return; // ❌ reject immediately
     }
+
+    let score = 0;
+
+    // scoring (optional now)
     if (r.level && level && r.level.toLowerCase() === level.toLowerCase()) {
       score += 1;
     }
+
     if (
       preference &&
       r.type &&
       r.type.toLowerCase() === preference.toLowerCase()
     ) {
-      score += 2;
+      score += 1;
     }
-    if (score > 0) {
-      result.push({ ...r, score });
-    }
+
+    result.push({ ...r, score });
   });
+
+  // fallback (if nothing matches weak topics)
   if (result.length === 0) {
     result = resources.filter(
       (r) =>
@@ -43,9 +51,9 @@ function getRecommendations({
         r.subject.toLowerCase() === subject.toLowerCase()
     );
   }
+
   result.sort((a, b) => (b.score || 0) - (a.score || 0));
 
   return result;
 }
-
 module.exports = { getRecommendations };

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import SetupPage from "./components/SetupPage";
 import QuizPage from "./components/QuizPage";
+import "./index.css";
 
 function App() {
   const [setupData, setSetupData] = useState(null);

@@ -12,12 +12,13 @@ function ResultPage({ resultData }) {
       setSelectedFeedback(type);
 
       const res = await API.post("/api/feedback/update", {
-        subject: resultData.subject,
-        currentLevel: resultData.level || "average",
-        feedback: type,
-        speed: speed,
-        preference: "video",
-      });
+  subject: resultData.subject,
+  level: resultData.level || "average",
+  feedback: type,
+  speed: speed,
+  preference: "video",
+  weakTopics: resultData.weakTopics || [] 
+});
 
       setUpdatedData(res.data);
     } catch (err) {
@@ -60,7 +61,7 @@ function ResultPage({ resultData }) {
         <h3>Recommended Resources</h3>
 
         {resources.length === 0 ? (
-          <p className="no-data">No recommendations available ❌</p>
+          <p className="no-data"></p>
         ) : (
           <div className="resource-list">
             {resources.map((res, i) => (
